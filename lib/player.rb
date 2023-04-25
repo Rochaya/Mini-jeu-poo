@@ -38,7 +38,7 @@ class HumanPlayer < Player
     end
 
     def show_states
-        puts "#{self.name} a #{self.life_points} de points de vie et une arme lvl #{self.weapon_lvl} !"
+        puts "#{self.name} a #{self.life_points} points de vie et une arme lvl #{self.weapon_lvl} !"
     end
 
     def compute_damage

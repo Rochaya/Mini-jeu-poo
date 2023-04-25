@@ -4,6 +4,8 @@ Bundler.require
 require_relative 'lib/game.rb'
 require_relative 'lib/player.rb'
 
+#player1 = Player.new("Olivier")
+#player2 = Player.new("Valentin")
 player1 = HumanPlayer.new("Olivier")
 player2 = HumanPlayer.new("Valentin")
 while (player1.life_points > 0 && player2.life_points > 0)
@@ -31,4 +33,4 @@ while (player1.life_points > 0 && player2.life_points > 0)
     puts player2.search_pack_health
 end
 puts "************** JEU TERMINER ***************"
-binding.pry
+#binding.pry
